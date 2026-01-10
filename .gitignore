@@ -137,16 +137,19 @@ Desktop.ini
 # PyCharm
 .idea/
 
-# Data files (common in ML projects)
-*.csv
+# Large data files (common in ML projects)
+# Note: Small sample datasets can be tracked by explicitly adding them with 'git add -f'
 *.h5
+*.hdf5
+
+# Large binary data files
 *.pkl
 *.pickle
 *.joblib
 *.npy
 *.npz
 
-# Model files
+# Large model files
 *.pth
 *.pt
 *.ckpt
@@ -154,10 +157,11 @@ Desktop.ini
 *.onnx
 *.tflite
 
-# Dataset directories
-data/
-datasets/
-raw_data/
+# Large dataset directories (you can explicitly add specific files if needed)
+# Note: For educational purposes, small datasets can be tracked
+*/data/large/
+*/datasets/large/
+*/raw_data/
 
 # Temporary files
 *.tmp
