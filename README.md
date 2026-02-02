@@ -22,6 +22,11 @@ This repository contains materials for the following courses:
 
 📁 [Machine-Learning-Spring-2021](./Machine-Learning-Spring-2021/)
 
+### 4. Keras Experiments
+**Keras实践**
+
+📁 [Keras](./Keras/)
+
 ## File Structure
 
 Each course folder contains:
